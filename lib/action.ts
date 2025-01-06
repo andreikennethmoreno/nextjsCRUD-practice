@@ -41,7 +41,7 @@ export const saveEmployee = async (prevSate: any, formData: FormData) => {
       redirect("/employee");
   };
 
-  
+
 // action.ts
 export const getEmployeelist = async (query: string = "") => {
   try {
@@ -126,3 +126,4 @@ export const deleteEmployee = async (id: string) => {
     throw new Error("Failed to delete employee");
   }
 };
+
